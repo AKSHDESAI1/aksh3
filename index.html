@@ -67,6 +67,20 @@
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
   <script>
+    window.onload = function () {
+      console.log("loaded")
+      var typed = new Typed('#typed', {
+        strings: ["You can do anything with your text here!", "Enter your text here and Let Text Utils do the magic!"],
+        backSpeed: 25,
+        smartBackspace: true,
+        backDelay: 1200,
+        startDelay: 1000,
+        typeSpeed: 25,
+        loop: true,
+      });
+    };
+  </script>
+  <script>
     aq1.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
     // let aq1 = document.getElementById('container')
     function r21() {
